@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Idroid'; /*aqui voce pode colocar o nome que quiser */ 
+    src: url('Fontes/idroid.otf') 
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas'; /*aqui voce pode colocar o nome que quiser */ 
+    src: url('Fontes/Bebas_Neue/BebasNeue-Regular.ttf') 
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ 
+    background-color: #f0ede4;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(#22ffda,#007231);
+    color: white;
+    margin: auto;
+    min-width: 250px;
+    max-width: 1000px;
+}
+
+header > h1{ 
+    font-family: 'Bebas', cursive;
+    text-align: center;
+    color: white;
+    font-weight: light;
+    font-size: 50px;
+    padding: 10px;
+    text-shadow: 5px 5px 15px black;
+    text-decoration: none;
+}
+
+header > h2{ 
+    font-family: 'Bebas', cursive;
+    color: rgba(245, 245, 245, 0.918);
+    text-align: center;
+    font-weight: lighter;
+    padding: 15px;
+    font-size: 1.8em;
+}
+
+nav > a{ 
+    text-align: left;
+    font-size: 1.3em;
+    text-shadow: 0px 5px 15px black;
+    color: rgba(255, 255, 255, 0.788);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 15px;
+}
+
+nav :hover{ 
+    background-color: #00b850;
+    color: #00682d;
+    border-radius: 10px;
+    
+}
+
+main{ 
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    min-width: 250px;
+    max-width: 1000px;
+    text-indent: 15px;
+    text-align: justify;
+    margin: auto;
+    
+}
+
+h1{ 
+    font-family: 'Idroid';
+    color: #007231;   
+    font-size: 30px;
+    text-indent: 15px;
+    padding: 15px 0px;
+    text-decoration: underline;
+}
+
+section > h2{ 
+    background-image:linear-gradient(to right,#1fda8c, transparent) ;
+    font-family: 'Idroid';
+    color: #007231;
+    padding:20px;  
+    text-decoration: underline;
+}
+
+p{ 
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    margin: 10px
+}
+
+section > a { 
+    color: #007231;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+picture{
+    text-align: center;
+    display: block;
+ }
+
+picture#bugdroid { 
+    margin: auto;
+    text-align: center;
+    min-width: 250px;
+    max-width: 1000px;
+    display: block;
+}
+
+div#video{ 
+    background-image: linear-gradient(#175C35,#7CE1A8,#37DB7F);
+    background-color: #007231c7;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50%;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+div#video > iframe{ 
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90% ;
+}
+
+div#rodape{ 
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: justify;
+    margin: auto;
+    min-width: 250px;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+div#subrodape{ 
+    background-color: #00ac4b7c;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: auto ;
+    border: 12px solid rgb(255, 255, 255);
+}
+
+div#subrodape > ul { 
+    text-align: justify;
+    list-style-position: inside;
+    padding: 0px 30px ;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0'
+}
+
+div#subrodape > h3 { 
+    background-color: #00b850;
+    padding: 15px;
+    margin: 1px;
+    color: white;
+}
+
+div#rodape > p { 
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+}
+
+footer{ 
+    background-color: #007231;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
