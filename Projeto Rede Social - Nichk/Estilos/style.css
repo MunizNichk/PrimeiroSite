@@ -42,8 +42,8 @@ iframe#tela{
 
 section#redes{ 
     text-align:right;
-    padding-top:50% ;
-    transform: translate(0%,-50%);
+    padding-top:30vh ;
+
 }
 
 section#redes img{ 
